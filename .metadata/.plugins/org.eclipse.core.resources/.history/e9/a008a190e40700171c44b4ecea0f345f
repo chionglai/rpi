@@ -1,0 +1,10 @@
+main.o: ../main.c \
+ /Users/chiong/work/c/rpi/AT24C32_EEPROM/../../lcclib/inc/util/status.h \
+ /Users/chiong/work/c/rpi/AT24C32_EEPROM/../../lcclib/inc/module/at24c32-eeprom/at24c32.h \
+ /Users/chiong/work/c/rpi/AT24C32_EEPROM/../../3p-lib/bcm2835-1.50/inc/bcm2835.h
+
+/Users/chiong/work/c/rpi/AT24C32_EEPROM/../../lcclib/inc/util/status.h:
+
+/Users/chiong/work/c/rpi/AT24C32_EEPROM/../../lcclib/inc/module/at24c32-eeprom/at24c32.h:
+
+/Users/chiong/work/c/rpi/AT24C32_EEPROM/../../3p-lib/bcm2835-1.50/inc/bcm2835.h:

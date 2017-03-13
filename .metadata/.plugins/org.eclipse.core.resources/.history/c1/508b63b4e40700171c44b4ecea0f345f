@@ -1,0 +1,4 @@
+src/main.o: ../src/main.c \
+ /Users/chiong/work/c/rpi/hello_wiringPi/../../3p-lib/wiringPi/inc/wiringPi.h
+
+/Users/chiong/work/c/rpi/hello_wiringPi/../../3p-lib/wiringPi/inc/wiringPi.h:

@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+org.eclipse.rse.preferences.order.connections=chiong-mbp.Local;chiong-mbp.rpi
+org.eclipse.rse.preferences.verify.connection=false

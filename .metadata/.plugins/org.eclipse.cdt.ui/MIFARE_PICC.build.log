@@ -1,0 +1,7 @@
+23:01:46 **** Clean-only build of configuration Release for project MIFARE_PICC ****
+make clean 
+rm -rf  ./main.o  ./main.d  MIFARE_PICC
+ 
+
+23:01:46 Build Finished (took 66ms)
+

@@ -1,0 +1,44 @@
+/*
+ * main.c
+ *
+ *  Created on: 23/07/2013
+ *      Author: lcc
+ */
+
+#include "wiringPi.h"
+#include <stdio.h>
+
+typedef struct _data_struct {
+    int id;
+    char* msg;
+    double value;
+} data_t;
+
+
+void isrDoTask(void* data) {
+    data_t* myData = (data_t*) data;
+
+    fprintf(stdout, "ID     : %d\n", myData->id);
+    fprintf(stdout, "Message: %s\n", myData->msg);
+    fprintf(stdout, "Value  : %f\n", myData->value);
+}
+
+
+void main () {
+    data_t firstData, secondData;
+
+    firstData.id = 1;
+    firstData.msg = "This is first data.";
+    firstData.value = 10;
+
+    secondData.id = 2;
+    secondData.msg = "This is second data.";
+    secondData.value = 22;
+
+    wiringPiISR(4, INT_EDGE_BOTH, isrDoTask, &firstData);
+    wiringPiISR(5, INT_EDGE_BOTH, isrDoTask, &secondData);
+
+    while (1) {
+        delay(2000);
+    }
+}

@@ -1,0 +1,7 @@
+23:01:46 **** Clean-only build of configuration Release for project MPU6050_AccelGyro ****
+make clean 
+rm -rf  ./main.o  ./main.d  MPU6050_AccelGyro
+ 
+
+23:01:46 Build Finished (took 66ms)
+

@@ -1,0 +1,7 @@
+22:39:27 **** Clean-only build of configuration Debug for project hello_raspbian ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  hello_raspbian
+ 
+
+22:39:27 Build Finished (took 69ms)
+

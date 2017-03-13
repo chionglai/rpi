@@ -1,0 +1,7 @@
+22:59:55 **** Clean-only build of configuration Release for project DS1307_RTC ****
+make clean 
+rm -rf  ./main.o  ./main.d  DS1307_RTC
+ 
+
+22:59:55 Build Finished (took 86ms)
+

@@ -1,0 +1,7 @@
+23:00:48 **** Clean-only build of configuration Release for project hello_wiringPi ****
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  hello_wiringPi
+ 
+
+23:00:48 Build Finished (took 78ms)
+
