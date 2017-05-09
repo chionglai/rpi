@@ -33,7 +33,7 @@
 
 #include "3p-lib/bcm2835-1.50/inc/bcm2835.h"
 
-#define MAX_CHAR	256		// max 256 char for user input
+#define MAX_CHAR			256		// max 256 char for user input
 #define STR_TOK_DELIMITER	" "
 
 typedef enum {
