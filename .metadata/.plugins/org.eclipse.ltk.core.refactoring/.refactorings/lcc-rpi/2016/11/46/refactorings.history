@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;lcc-rpi/inc/os/os.h&apos; to &apos;portable.h&apos;" description="Rename resource &apos;os.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inc/os/os.h" name="portable.h" stamp="1478994853721" updateReferences="true"/>
-</session>

@@ -1,0 +1,5 @@
+# Eclipse metadata
+.metadata/
+
+# Build artefact
+**/Debug/

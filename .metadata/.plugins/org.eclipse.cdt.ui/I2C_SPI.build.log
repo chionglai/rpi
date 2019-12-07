@@ -1,7 +1,0 @@
-23:01:18 **** Clean-only build of configuration Debug for project I2C_SPI ****
-make clean 
-rm -rf  ./i2c_spi_main.o  ./i2c_spi_main.d  I2C_SPI
- 
-
-23:01:18 Build Finished (took 76ms)
-

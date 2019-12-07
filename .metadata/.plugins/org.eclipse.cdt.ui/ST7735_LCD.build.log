@@ -1,7 +1,0 @@
-23:01:46 **** Clean-only build of configuration Release for project ST7735_LCD ****
-make clean 
-rm -rf  ./main.o  ./main.d  ST7735_LCD
- 
-
-23:01:46 Build Finished (took 73ms)
-

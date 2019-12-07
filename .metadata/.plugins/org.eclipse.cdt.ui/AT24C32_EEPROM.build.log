@@ -1,7 +1,0 @@
-22:59:48 **** Clean-only build of configuration Release for project AT24C32_EEPROM ****
-make clean 
-rm -rf  ./main.o  ./main.d  AT24C32_EEPROM
- 
-
-22:59:48 Build Finished (took 75ms)
-
